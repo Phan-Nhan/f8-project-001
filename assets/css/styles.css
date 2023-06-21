@@ -271,7 +271,8 @@ a {
     margin-left: 8px;
 }
 .feature .feature-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
     justify-content: center;
     gap: 30px;
     margin-top: 70px;
@@ -524,7 +525,7 @@ a {
 
 .footer .row {
     display: flex;
-    gap: 185px;
+    column-gap: 185px;
     padding: 50px 0 58px 0;
 }
 .footer .heading {
